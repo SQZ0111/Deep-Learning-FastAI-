@@ -2,4 +2,10 @@
 
 -> Deep Learning using neuron net and FastAI framework
 
--> originally done using Google Colab IDE (caution: API!!) : https://drive.google.com/drive/u/0/folders/16VoY4nBL2b6KZKkGiVCi934pTHPtBrv_ (DATA)
+-> originally done using Google Colab IDE (caution: API!!) : https://drive.google.com/file/d/1Jr9Jhzia9oiuEl6xKR7TTwscbRcBpmzo/view?usp=sharing (DATA)
+to unpickle (open up) the Pickle file use following code:
+  import pickle
+
+
+  with open('serialized.pkl', 'rb') as f:
+      data = pickle.load(f)
